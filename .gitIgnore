@@ -1,0 +1,17 @@
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/
+.history
+.cache
+.lib/
+.idea
+### SBT Patch ###
+.bsp/
+
+### Scala ###
+*.class
+*.log
+.DS_Store
