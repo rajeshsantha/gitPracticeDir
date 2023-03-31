@@ -17,6 +17,6 @@ println(convertDecimalToBinaryString(8))
     binaryString.reverse
 
   }
-
+//test
 
 }
