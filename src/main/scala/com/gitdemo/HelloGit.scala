@@ -18,12 +18,4 @@ println(convertDecimalToBinaryString(8))
 
   }
 //test
-def convertDecimalToBinaryFunctional (n: Int): String = {
-  Iterator.iterate(n)(_ / 2)
-    .takeWhile(_ > 0)
-    .map(_ % 2)
-    .mkString
-    .reverse
-}
-
 }
